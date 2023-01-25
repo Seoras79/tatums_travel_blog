@@ -1,0 +1,22 @@
+/* the asterix applies sytle to everything on page */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body { /* adds background colour to body*/
+    background-color: blanchedalmond;
+}
+article { /* adds background gradient to article*/
+    background: linear-gradient(blue, aqua);
+}
+header { /* adds background image to header, sets size to cover header and sets text color*/
+    background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    color: whitesmoke;
+}
+a {/* adds colour to link text and removes the underline*/
+    color: aquamarine;
+    text-decoration: none;
+}
+a:hover { /* adds underline back ot links when hovering over it*/
+    text-decoration: underline;
+}
